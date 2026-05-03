@@ -57,5 +57,5 @@ dmypy.json
 .DS_Store
 Thumbs.db
 
-*/resources/
-**/resources/
+# Sample character sprites (keep local only; not for remote)
+resources/characters/
