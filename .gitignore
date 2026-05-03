@@ -56,3 +56,6 @@ dmypy.json
 *~
 .DS_Store
 Thumbs.db
+
+*/resources/
+**/resources/
