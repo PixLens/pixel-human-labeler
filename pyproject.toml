@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pixellabeler"
+version = "0.1.0"
+description = "PyQt6 desktop app for pixel art and generative model training workflows."
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6>=6.6",
+]
+
+[project.scripts]
+pixel-labeler = "PixelLabeler.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/PixelLabeler"]

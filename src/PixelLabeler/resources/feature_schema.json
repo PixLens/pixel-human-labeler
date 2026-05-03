@@ -1,0 +1,490 @@
+{
+  "version": 2,
+  "dimensions": [
+    {
+      "id": "subject_count",
+      "label": "인물 수·성별 (SD 태그)",
+      "options": [
+        "1girl",
+        "1boy",
+        "2girls",
+        "2boys",
+        "multiple_girls",
+        "multiple_boys",
+        "mixed_group",
+        "solo"
+      ]
+    },
+    {
+      "id": "facing_8way",
+      "label": "카메라·시선 방향 (8방)",
+      "options": [
+        "front-right",
+        "front",
+        "front-left",
+        "left",
+        "right",
+        "back",
+        "back-right",
+        "back-left"
+      ]
+    },
+    {
+      "id": "body_shot",
+      "label": "프레이밍 (신체 노출 범위)",
+      "options": [
+        "full_body",
+        "cowboy_shot",
+        "upper_body",
+        "portrait",
+        "close-up",
+        "feet_out_of_frame",
+        "head_out_of_frame"
+      ]
+    },
+    {
+      "id": "pose_basic",
+      "label": "기본 포즈",
+      "options": [
+        "standing",
+        "sitting",
+        "lying",
+        "walking",
+        "running",
+        "kneeling",
+        "squatting",
+        "arms_up",
+        "hand_on_hip",
+        "crossed_arms",
+        "fighting_stance",
+        "dancing"
+      ]
+    },
+    {
+      "id": "hair_color",
+      "label": "머리색 (색상 태그)",
+      "options": [
+        "blonde_hair",
+        "black_hair",
+        "brown_hair",
+        "red_hair",
+        "blue_hair",
+        "white_hair",
+        "green_hair",
+        "pink_hair",
+        "purple_hair",
+        "grey_hair",
+        "orange_hair",
+        "aqua_hair",
+        "multicolored_hair",
+        "gradient_hair",
+        "two-tone_hair",
+        "colored_inner_hair"
+      ]
+    },
+    {
+      "id": "hair_length",
+      "label": "머리 길이",
+      "options": [
+        "very_long_hair",
+        "long_hair",
+        "medium_hair",
+        "short_hair",
+        "very_short_hair",
+        "bald",
+        "buzz_cut",
+        "big_hair"
+      ]
+    },
+    {
+      "id": "hair_style",
+      "label": "헤어 스타일",
+      "options": [
+        "ponytail",
+        "high_ponytail",
+        "side_ponytail",
+        "twintails",
+        "low_twintails",
+        "braid",
+        "single_braid",
+        "twin_braids",
+        "hair_bun",
+        "double_bun",
+        "bob_cut",
+        "hime_cut",
+        "drill_hair",
+        "one_side_up",
+        "hair_flaps",
+        "messy_hair",
+        "straight_hair",
+        "wavy_hair",
+        "curly_hair",
+        "spiked_hair",
+        "ahoge",
+        "hair_up"
+      ]
+    },
+    {
+      "id": "bangs",
+      "label": "앞머리",
+      "options": [
+        "blunt_bangs",
+        "parted_bangs",
+        "swept_bangs",
+        "hair_between_eyes",
+        "hair_over_one_eye",
+        "asymmetrical_bangs",
+        "no_bangs",
+        "center_parted_bangs",
+        "crossed_bangs",
+        "choppy_bangs"
+      ]
+    },
+    {
+      "id": "eye_color",
+      "label": "눈 색",
+      "options": [
+        "blue_eyes",
+        "brown_eyes",
+        "green_eyes",
+        "red_eyes",
+        "purple_eyes",
+        "yellow_eyes",
+        "black_eyes",
+        "pink_eyes",
+        "grey_eyes",
+        "aqua_eyes",
+        "orange_eyes",
+        "white_eyes",
+        "heterochromia",
+        "glowing_eyes",
+        "sparkling_eyes"
+      ]
+    },
+    {
+      "id": "eye_shape",
+      "label": "눈 형태·디테일",
+      "options": [
+        "tsurime",
+        "tareme",
+        "sparkling_eyes",
+        "half-closed_eyes",
+        "narrowed_eyes",
+        "wide-eyed",
+        "bags_under_eyes",
+        "long_eyelashes",
+        "thick_eyelashes",
+        "eyeshadow",
+        "mole_under_eye",
+        "normal_eyes"
+      ]
+    },
+    {
+      "id": "eyebrows",
+      "label": "눈썹",
+      "options": [
+        "thick_eyebrows",
+        "thin_eyebrows",
+        "straight_eyebrows",
+        "v-shaped_eyebrows",
+        "furrowed_brow",
+        "angry_eyebrows",
+        "default_eyebrows"
+      ]
+    },
+    {
+      "id": "mouth_expression",
+      "label": "입·표정",
+      "options": [
+        "smile",
+        "light_smile",
+        "grin",
+        "open_mouth",
+        "closed_mouth",
+        "frown",
+        "pout",
+        "tongue",
+        "sharp_teeth",
+        "fang",
+        "blush",
+        "tears",
+        "crying",
+        "surprised",
+        "sleeping",
+        "neutral_face"
+      ]
+    },
+    {
+      "id": "skin",
+      "label": "피부 톤",
+      "options": [
+        "pale_skin",
+        "fair_skin",
+        "tan",
+        "dark_skin",
+        "brown_skin",
+        "white_skin",
+        "colored_skin",
+        "freckles",
+        "smooth_skin"
+      ]
+    },
+    {
+      "id": "species_archetype",
+      "label": "종족·귀·특징",
+      "options": [
+        "human",
+        "elf",
+        "pointy_ears",
+        "cat_ears",
+        "dog_ears",
+        "fox_ears",
+        "rabbit_ears",
+        "wolf_ears",
+        "dragon_horns",
+        "demon_horns",
+        "oni_horns",
+        "angel_wings",
+        "demon_wings",
+        "bat_wings",
+        "fairy_wings",
+        "tail",
+        "robot_joints",
+        "android",
+        "monster_girl",
+        "kemonomimi"
+      ]
+    },
+    {
+      "id": "clothing_top",
+      "label": "상의·겉옷",
+      "options": [
+        "shirt",
+        "white_shirt",
+        "t-shirt",
+        "tank_top",
+        "hoodie",
+        "jacket",
+        "coat",
+        "school_uniform",
+        "serafuku",
+        "sailor_collar",
+        "dress",
+        "kimono",
+        "yukata",
+        "china_dress",
+        "armor",
+        "bikini",
+        "sports_bra",
+        "crop_top",
+        "cardigan",
+        "vest",
+        "maid",
+        "suit",
+        "topless"
+      ]
+    },
+    {
+      "id": "clothing_bottom",
+      "label": "하의·치마",
+      "options": [
+        "skirt",
+        "pleated_skirt",
+        "miniskirt",
+        "long_skirt",
+        "pants",
+        "jeans",
+        "shorts",
+        "hot_pants",
+        "bike_shorts",
+        "bloomers",
+        "dress",
+        "bikini_bottom",
+        "fundoshi",
+        "no_pants"
+      ]
+    },
+    {
+      "id": "legwear",
+      "label": "다리·스타킹",
+      "options": [
+        "thighhighs",
+        "pantyhose",
+        "knee_socks",
+        "socks",
+        "ankle_socks",
+        "fishnets",
+        "leg_garter",
+        "garter_straps",
+        "bare_legs",
+        "bandaged_leg",
+        "single_thighhigh"
+      ]
+    },
+    {
+      "id": "footwear",
+      "label": "신발",
+      "options": [
+        "shoes",
+        "sneakers",
+        "boots",
+        "high_heels",
+        "loafers",
+        "mary_janes",
+        "sandals",
+        "slippers",
+        "uwabaki",
+        "barefoot",
+        "armored_boots"
+      ]
+    },
+    {
+      "id": "gloves",
+      "label": "장갑·손",
+      "options": [
+        "gloves",
+        "fingerless_gloves",
+        "elbow_gloves",
+        "mittens",
+        "single_glove",
+        "bandaged_hand",
+        "no_gloves"
+      ]
+    },
+    {
+      "id": "headwear",
+      "label": "모자·머리 장식",
+      "options": [
+        "hat",
+        "baseball_cap",
+        "beret",
+        "hood",
+        "hood_up",
+        "hair_ribbon",
+        "hair_bow",
+        "hairband",
+        "crown",
+        "tiara",
+        "flower",
+        "veil",
+        "nurse_cap",
+        "maid_headdress",
+        "animal_hood",
+        "no_headwear"
+      ]
+    },
+    {
+      "id": "face_accessory",
+      "label": "얼굴 장식",
+      "options": [
+        "glasses",
+        "round_eyewear",
+        "semi-rimless_eyewear",
+        "sunglasses",
+        "goggles",
+        "eyepatch",
+        "medical_eyepatch",
+        "mask",
+        "mouth_mask",
+        "earrings",
+        "bandaid_on_face",
+        "mole",
+        "no_face_accessory"
+      ]
+    },
+    {
+      "id": "neck_accessory",
+      "label": "목 장식",
+      "options": [
+        "choker",
+        "black_choker",
+        "necklace",
+        "necktie",
+        "bowtie",
+        "scarf",
+        "collar",
+        "bell_collar",
+        "cross_necklace",
+        "no_neck_accessory"
+      ]
+    },
+    {
+      "id": "back_accessory",
+      "label": "등·뒤 소품",
+      "options": [
+        "cape",
+        "cloak",
+        "backpack",
+        "wings",
+        "weapon_on_back",
+        "scabbard",
+        "no_back_accessory"
+      ]
+    },
+    {
+      "id": "held_item",
+      "label": "손에 든 것",
+      "options": [
+        "holding_sword",
+        "holding_gun",
+        "holding_staff",
+        "holding_bow_(weapon)",
+        "holding_shield",
+        "holding_umbrella",
+        "holding_food",
+        "holding_phone",
+        "holding_book",
+        "holding_microphone",
+        "holding_wand",
+        "holding_flower",
+        "holding_balloon",
+        "hands_on_hips",
+        "arms_behind_back",
+        "hands_in_pockets"
+      ]
+    },
+    {
+      "id": "art_style",
+      "label": "화풍·렌더 (캡션용)",
+      "options": [
+        "anime_style",
+        "pixel_art",
+        "lowres",
+        "official_art",
+        "game_cg",
+        "sketch",
+        "lineart",
+        "flat_color",
+        "cel_shading",
+        "soft_shading",
+        "realistic"
+      ]
+    },
+    {
+      "id": "quality_tags",
+      "label": "품질 메타 (학습·프롬프트용)",
+      "options": [
+        "masterpiece",
+        "best_quality",
+        "highres",
+        "absurdres",
+        "detailed_eyes",
+        "detailed_face",
+        "general",
+        "worst_quality",
+        "low_quality",
+        "blurry"
+      ]
+    },
+    {
+      "id": "dataset_note",
+      "label": "세트 메모 (현재 샘플)",
+      "options": [
+        "characters_pack_default",
+        "all_sprites_facing_front_right",
+        "needs_multi_angle_set",
+        "other"
+      ]
+    }
+  ]
+}
